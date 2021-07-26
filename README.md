@@ -43,7 +43,7 @@ The scripts require the user to have the [docker group membership](https://docs.
 bash scripts/download_itm.sh $PATH_TO_STORAGE
 ``` 
 
-* Download [the JSON file of Flickr30K produced by Andrej Karpathy](https://cs.stanford.edu/people/karpathy/deepimagesent/). Extract "dataset.json" and copy it into the root of UNITER project.
+* Download [the JSON file of Flickr30K produced by Andrej Karpathy](https://cs.stanford.edu/people/karpathy/deepimagesent/). Extract zip file to get "dataset.json" and copy "dataset.json" into the root of UNITER project.
 
 ### Evaluation and Limitation Analysis
 * Open the file of "config/evaluation-itm-flickr-base-8gpu.json" and set DATA PATH and MODEL PATH in it.
