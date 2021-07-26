@@ -46,7 +46,7 @@ bash scripts/download_itm.sh $PATH_TO_STORAGE
 * Download [the JSON file of Flickr30K produced by Andrej Karpathy](https://cs.stanford.edu/people/karpathy/deepimagesent/). Extract "dataset.json" and copy it into the root of UNITER project.
 
 ### Evaluation and Limitation Analysis
-Evaluating UNITER for retrieving any 1 of 5 descriptions, Evaluating UNITER for retrieving all 5 descriptions, and analysing limitations of UNITER can be finished by runing one python file:
+Evaluating UNITER for retrieving any 1 of 5 descriptions, evaluating UNITER for retrieving all 5 descriptions, and analysing limitations of UNITER can be finished by runing one python file:
 ``` 
 python test_itm_evaluation_and_analyseImageNetTopics.py 
 ``` 
