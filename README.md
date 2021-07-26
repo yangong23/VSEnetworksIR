@@ -37,6 +37,14 @@ Follow the official introduction of [UNITER](https://github.com/ChenRocks/UNITER
 
 The scripts require the user to have the docker group membership so that docker commands can be run without sudo. Only Linux with NVIDIA GPUs is supported.
 
+We recommended the following dependencies.
+
+* Python 3.8
+
+* [PyTorch](https://pytorch.org/) (1.7.1)
+
+* [NumPy](https://numpy.org/) (>1.12.1)
+
 ### Download Data and Models
 ``` 
 bash scripts/download_itm.sh $PATH_TO_STORAGE
