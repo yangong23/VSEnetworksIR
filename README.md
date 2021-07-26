@@ -6,17 +6,13 @@ We recommended the following dependencies.
 
 Python 3.8
 
-PyTorch (1.7.1)
+[PyTorch](https://pytorch.org/) (1.7.1)
 
-NumPy (>1.12.1)
+NumPy[NumPy](https://numpy.org/) (>1.12.1)
 
 [TensorBoard](https://github.com/TeamHG-Memex/tensorboard_logger) 
 
-pycocotools
-
-torchvision
-
-matplotlib
+[pycocotools](https://github.com/cocodataset/cocoapi) 
 
 Punkt Sentence Tokenizer:
 
