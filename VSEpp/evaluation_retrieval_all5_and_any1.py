@@ -15,7 +15,7 @@ import pandas as pd
 
 def main():
 
-    evalrank("pretrain_model/model_best.pth.tar", data_path="/home/yan/data", split="test")
+    evalrank("$MODEL_PATH", data_path="$DATA_PATH", split="test")
 
 class AverageMeter(object):
     """Computes and stores the average and current value"""
