@@ -27,7 +27,7 @@ nltk.download()
 ## UNITER:
 ### Requirements
 
-Follow the official introduction of [UNITER](https://github.com/ChenRocks/UNITER). Please install the following:
+The requirements and installation can be followed by the official introduction of [UNITER](https://github.com/ChenRocks/UNITER). Please install the following:
 
 * [nvidia driver](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#package-manager-installation) (418+)
 
