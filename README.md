@@ -1,7 +1,9 @@
 # VSEnetworksIR
 Code will be uploaded very soon (by the 30th July 2021).
 
-## Requirements
+## VSE++, SCAN, and VSRN:
+
+### Requirements
 We recommended the following dependencies.
 
 * Python 3.8
@@ -20,4 +22,12 @@ We recommended the following dependencies.
 import nltk
 nltk.download()
 > d punkt
+``` 
+
+## UNITER:
+### Requirements
+
+### Download Data and Models
+``` python
+bash scripts/download_itm.sh $PATH_TO_STORAGE
 ``` 
