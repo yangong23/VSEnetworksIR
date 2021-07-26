@@ -27,6 +27,13 @@ nltk.download()
 ## UNITER:
 ### Requirements
 
+Follow the official introduction of [UNITER](https://github.com/ChenRocks/UNITER). Please install the following:
+
+[nvidia driver](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#package-manager-installation) (418+),
+[Docker](https://docs.docker.com/engine/install/ubuntu/) (19.03+),
+[vidia-container-toolkit](https://github.com/NVIDIA/nvidia-docker#quickstart).
+Our scripts require the user to have the docker group membership so that docker commands can be run without sudo. We only support Linux with NVIDIA GPUs. We test on Ubuntu 18.04 and V100 cards. We use mixed-precision training hence GPUs with Tensor Cores are recommended.
+
 ### Download Data and Models
 ``` 
 bash scripts/download_itm.sh $PATH_TO_STORAGE
