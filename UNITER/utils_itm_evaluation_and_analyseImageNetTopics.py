@@ -78,7 +78,7 @@ def itm_eval(score_matrix, txt_ids, img_ids, txt2img, img2txts):
 
     # Read Karpathy JSON
     import json
-    with open('dataset_flickr30k.json', 'r') as j:
+    with open('dataset.json', 'r') as j:
         data = json.load(j)
 
     gt_ID = []
