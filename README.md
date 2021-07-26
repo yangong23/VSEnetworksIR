@@ -47,10 +47,12 @@ bash scripts/download_itm.sh $PATH_TO_STORAGE
 
 ### Evaluation and Limitation Analysis
 * Open "config/evaluation-itm-flickr-base-8gpu.json" and set DATA PATH and MODEL PATH.
+
 * Evaluating UNITER for retrieving any 1 of 5 descriptions, evaluating UNITER for retrieving all 5 descriptions, and analysing limitations of UNITER can be finished by runing one python file:
 ``` 
 python test_itm_evaluation_and_analyseImageNetTopics.py 
 ``` 
+
 * Find results in the folder of "i2t_Results_and_ImageNetTopic_Results".
 
 
