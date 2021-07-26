@@ -336,6 +336,10 @@ def i2t(images, captions, caplens, sims, npts=None, return_ranks=False):
     AtK = []
     for i in range (images.shape[0]*5):
         AtK.append(i+1)
+        
+    Save_path_aveRecall = './i2t_Results'
+    if not os.path.exists(Save_path_aveRecall):
+        os.makedirs(Save_path_aveRecall)
 
     for index in range(npts):
         inds = np.argsort(sims[index])[::-1]
@@ -350,8 +354,6 @@ def i2t(images, captions, caplens, sims, npts=None, return_ranks=False):
 
         inds_ID = inds // 5
         inds_ID_d = inds % 5 + 1
-
-        Save_path_aveRecall = './i2t_Results'
 
         inds_ID_s = []
         Rank = []
