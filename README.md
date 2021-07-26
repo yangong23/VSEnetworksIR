@@ -28,6 +28,6 @@ nltk.download()
 ### Requirements
 
 ### Download Data and Models
-``` python
+``` 
 bash scripts/download_itm.sh $PATH_TO_STORAGE
 ``` 
