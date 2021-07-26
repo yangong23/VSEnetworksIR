@@ -10,7 +10,7 @@ PyTorch (1.7.1)
 
 NumPy (>1.12.1)
 
-·TensorBoard「(https://github.com/TeamHG-Memex/tensorboard_logger) 
+[TensorBoard](https://github.com/TeamHG-Memex/tensorboard_logger) 
 
 pycocotools
 
