@@ -359,7 +359,6 @@ def i2t(images, captions, caplens, sims, npts=None, return_ranks=False):
         Rank = []
         Relevant = []
         Recall = []
-        # M2Recall = []
         Precision = []
         F1_Measure = []
 
@@ -380,11 +379,6 @@ def i2t(images, captions, caplens, sims, npts=None, return_ranks=False):
             # Recall
             Recall_temp = 100.0 * Relevant_counter / 5
             Recall.append(Recall_temp)
-            # if Relevant_counter >= 1:
-            #     M2Recall_temp = 100.0 * 1 / 1
-            # else:
-            #     M2Recall_temp = 0
-            # M2Recall.append(Recall_temp)
 
             # Precsision
             P_retrieved = P_retrieved + 1
@@ -404,7 +398,6 @@ def i2t(images, captions, caplens, sims, npts=None, return_ranks=False):
 
             # Average
             AveRecall_temp[j] = AveRecall_temp[j] + Recall_temp
-            # M2AveRecall_temp[j] = M2AveRecall_temp[j] + M2Recall_temp
             AvePrecision_temp[j] = AvePrecision_temp[j] + Precision_temp
             AveF1_Measure_temp[j] = AveF1_Measure_temp[j] + F1_Measure_temp
 
