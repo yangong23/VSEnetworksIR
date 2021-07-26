@@ -358,7 +358,7 @@ def i2t(images, captions, npts=None, measure='cosine', return_ranks=False, mode 
     dataframe = pd.DataFrame({'ImageNet ID': ImageNetID, 'Average Recall@5 (%)': AveRecallPerTopic_r5, 'Average Precision@1 (%)': AvePrecisionPerTopic_p1})
     dataframe.to_csv(outputPath + '/VSRN_' + mode + '_Recall@5Precision@1_Per_ImageNetTopic.csv', sep=',')
 
-    dataframe = pd.DataFrame({'Query Image Name': imageNames, 'ImageNet ID': imageID, 'Retrieved Results': RetrievalResult, '@1 Mark': RetrievalMark})
+    dataframe = pd.DataFrame({'Query Image Name': imageNames, 'Query Image ID': imageID, 'Retrieved Results': RetrievalResult, '@1 Mark': RetrievalMark})
     dataframe.to_csv(outputPath + '/VSRN_' + mode + '_RetrievalDetail.csv', sep=',')
 
     # Compute metrics
