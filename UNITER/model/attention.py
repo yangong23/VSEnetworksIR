@@ -1,3 +1,9 @@
+# ----------------------------------------------------------------
+# Copied by Yan Gong
+# Last revised: July 2021
+# Reference: The code is copy from UNITER: UNITER: UNiversal Image-TExt Representation Learning (https://arxiv.org/abs/1909.11740).
+# -----------------------------------------------------------------
+
 """
 copy multi-head attention code from pytorch
 (https://github.com/pytorch/pytorch),
