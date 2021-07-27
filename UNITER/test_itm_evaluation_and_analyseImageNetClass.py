@@ -177,7 +177,7 @@ def main(opts):
                           ('test', eval_loader_test),
                           ('val', eval_loader_val),
     ]:
-        eval_log = evaluate_and_analyseImageNetTopics(model, loader)
+        eval_log = evaluate_and_analyseImageNetClass(model, loader)
         TB_LOGGER.log_scaler_dict({f"eval/{split}_{k}": v
                                    for k, v in eval_log.items()})
         if hvd.rank() != 0:
