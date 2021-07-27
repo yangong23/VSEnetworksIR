@@ -91,8 +91,7 @@ Results: Get the results in the folder of "ImageNetTopic_Results". (1) "VSRN_mod
 ## UNITER:
 ### Requirements and Installation
 
-The requirements and installation can be followed by the official introduction of [UNITER](https://github.com/ChenRocks/UNITER). Please install the following:
-* ubuntu (>18.04)
+The requirements and installation can be followed by the official introduction of [UNITER](https://github.com/ChenRocks/UNITER). Official introduction requires to install the following:
 
 * [nvidia driver](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#package-manager-installation) (418+)
 
@@ -102,7 +101,7 @@ The requirements and installation can be followed by the official introduction o
 
 The scripts require the user to have the [docker group membership](https://docs.docker.com/engine/install/linux-postinstall/) so that docker commands can be run without sudo. Only Linux with NVIDIA GPUs is supported. Some code in this repo are copied/modified from opensource implementations made available by [PyTorch](https://github.com/pytorch/pytorch), [HuggingFace](https://github.com/huggingface/transformers), [OpenNMT](https://github.com/OpenNMT/OpenNMT-py), and [Nvidia](https://github.com/NVIDIA/DeepLearningExamples/tree/master/PyTorch). The image features are extracted using [BUTD](https://github.com/peteanderson80/bottom-up-attention).
 
-We used Python 3.8 and Pytorch 1.7.1 with anaconda3 environment, and the code was runing on a NVIDIA RTX 3080 GPU.
+We used Python 3.8 and Pytorch 1.7.1 with anaconda3 environment, and the code was runing on a NVIDIA RTX 3080 GPU with the system of ubuntu 18.04.
 
 ### Download Data and Trained Models
 * Download data and trained models:
