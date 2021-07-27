@@ -148,16 +148,16 @@ Gong Y, Cosma G, Fang h. On the Limitations of Visual-Semantic Embedding Network
 
 BibTeX:
 
-      @inproceedings{gong2021limivse,
-        title={On the Limitations of Visual-Semantic Embedding Networks for Image-to-Text Information Retrieval},
-        author={Gong, Yan and Cosma, Georgina and Fang, Hui},
-        journal={Journal of Imaging},
-        volume={7},
-        number={8},
-        pages={125},
-        year={2021},
-        publisher={Multidisciplinary Digital Publishing Institute}
-      }
+    @inproceedings{gong2021limivse,
+      title={On the Limitations of Visual-Semantic Embedding Networks for Image-to-Text Information Retrieval},
+      author={Gong, Yan and Cosma, Georgina and Fang, Hui},
+      journal={Journal of Imaging},
+      volume={7},
+      number={8},
+      pages={125},
+      year={2021},
+      publisher={Multidisciplinary Digital Publishing Institute}
+    }
       
 
 
