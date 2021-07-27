@@ -7,7 +7,7 @@ The flow of this experiment is as follows:
 * Evaluate VSE networks (VSE++, SCAN, VSRN, and UNITER). (1) Evaluating the network for retrieving any 1 of 5 descriptions to image queries; (2) evaluating the network for retrieving all 5 descriptions to image queries.
 * Analyse limitations of VSE networks (only for VSRN and UNITER). (1) To compute Recall@5 and Precision@1 for every ImageNetClass; (2) To get retrieval details for all image queries.
 
-## Run VSE++, SCAN, and VSRN
+## Run VSE++, SCAN, and VSRN Projects
 
 ### Requirements and Installation
 We recommended the following dependencies.
@@ -109,7 +109,7 @@ python evaluation_ImageNetClass.py
 Results: Get the results in the folder of "ImageNetTopic_Results". (1) "VSRN_mode_Recall5_Precision1_Per_ImageNetClass.csv" saves Recall@5 and Precision@1 for every ImageNet class; (2) "VSRN_mode_RetrievalDetail.csv" saves the top 5 ranked retrieved descriptions to the image query for all data in the set.
 
 
-## Run UNITER
+## Run UNITER Project
 ### Requirements and Installation
 
 The requirements and installation can be followed by the official introduction of [UNITER](https://github.com/ChenRocks/UNITER). Official introduction requires to install the following:
