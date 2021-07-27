@@ -125,13 +125,13 @@ The scripts require the user to have the [docker group membership](https://docs.
 We used Python 3.8 and Pytorch 1.7.1 in anaconda3 environment, and the code was runing on a NVIDIA RTX 3080 GPU with the system of ubuntu 18.04.
 
 ### Download data and pre-trained models
-* Download image features and trained models:
+* 1 Download image features and trained models:
 ``` 
 bash scripts/download_itm.sh $PATH_TO_STORAGE
 ```
 Only Flirk30K is needed by this paper. The model is downloaded, we do not need to train a new model.
 
-* Download [the JSON file of Flickr30K](https://cs.stanford.edu/people/karpathy/deepimagesent/flickr30k.zip) produced by [Andrej Karpathy](https://cs.stanford.edu/people/karpathy/deepimagesent/). Extract "dataset.json" file from flickr30k.zip and copy "dataset.json" file into the root of UNITER project.
+* 2 Download [the JSON file of Flickr30K](https://cs.stanford.edu/people/karpathy/deepimagesent/flickr30k.zip) produced by [Andrej Karpathy](https://cs.stanford.edu/people/karpathy/deepimagesent/). Extract "dataset.json" file from flickr30k.zip and copy "dataset.json" file into the root of UNITER project.
 
 ### Evaluation and limitation analysis
 * Evaluating UNITER for retrieving any 1 of 5 descriptions, evaluating UNITER for retrieving all 5 descriptions, and analysing limitations of UNITER can be finished by runing one python file.
