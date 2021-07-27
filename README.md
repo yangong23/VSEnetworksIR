@@ -76,7 +76,7 @@ Results: Get the results in the folder of "i2t_Results". (1) "AveRecallPrecision
 
 ### Limitation analysis
 * Only for VSRN: 
-Modify the model_path and data_path in the evaluation_ImageNetClass.py file. Then Run evaluation_ImageNetClass.py:
+Modify the "$MODEL_PATH" and "$DATA_PATH" in the evaluation_ImageNetClass.py file. Then Run evaluation_ImageNetClass.py:
 ``` 
 python evaluation_ImageNetClass.py
 ``` 
