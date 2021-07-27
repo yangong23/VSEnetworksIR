@@ -212,7 +212,7 @@ def itm_eval(score_matrix, txt_ids, img_ids, txt2img, img2txts):
     for q in range(tLen):
         AtK.append((q + 1))
     dataframe = pd.DataFrame({'@K': AtK, 'Average Recall RetrievalAll5': tr_r, 'Average Precision RetrievalAll5': tr_p,
-                              'Average F1_Measure RetrievalAll5': tr_f1})
+                              'Average F1_score RetrievalAll5': tr_f1})
     dataframe.to_csv(Output_dir + '/UNITER_' + mode + '_AveRecallPrecisionF1_Retrieval_All5.csv', sep=',', index=False)
 
     dataframe = pd.DataFrame({'@K': AtK_Any1, 'Average Recall RetrievalAny1': tr_r_Any1})
