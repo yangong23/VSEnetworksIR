@@ -1,3 +1,13 @@
+# ----------------------------------------------------------------
+# On the Limitations of Visual-Semantic Embedding Networks for Image-to-Text Information Retrieval
+# by Yan Gong, Georgina Cosma, and Hui Fang
+# Programmed by Yan Gong
+# Last revised: July 2021
+# Reference: The code is modified based on UNITER: UNITER: UNiversal Image-TExt Representation Learning (https://arxiv.org/abs/1909.11740). 
+# These are the functions for evaluating UNITER and analysing UNITER's limitations.
+# Copyright (c) 2021, Yan Gong. All rights reserved.
+# -----------------------------------------------------------------
+
 """
 Copyright (c) Microsoft Corporation.
 Licensed under the MIT license.
