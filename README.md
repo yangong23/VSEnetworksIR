@@ -146,8 +146,7 @@ If you found this code useful, please cite the following paper:
 
 Gong Y, Cosma G, Fang h. On the Limitations of Visual-Semantic Embedding Networks for Image-to-Text Information Retrieval[J]. Journal of Imaging, 2021, 7(8): 125.
 
-Bibtex:
-
+BibTeX:
       @inproceedings{gong2021limivse,
         title={On the Limitations of Visual-Semantic Embedding Networks for Image-to-Text Information Retrieval},
         author={Gong, Yan and Cosma, Georgina and Fang, Hui},
