@@ -202,7 +202,7 @@ def itm_eval(score_matrix, txt_ids, img_ids, txt2img, img2txts):
     ImageNetID = [i for i in range(1000)]
     dataframe = pd.DataFrame({'ImageNet ID': ImageNetID, 'Average Recall@5': Topic_r5,
                               'Average Precision@1': Topic_p1})
-    dataframe.to_csv(Output_dir + '/UNITER_' + mode + '_Recall@5Precision@1_Per_ImageNetTopic.csv', sep=',')
+    dataframe.to_csv(Output_dir + '/UNITER_' + mode + '_Recall5_Precision1_Per_ImageNetTopic.csv', sep=',')
 
     dataframe = pd.DataFrame({'Query Image Name': imageNames, 'Query Image ID': imageID, 'Retrieved Results': RetrievalResult, '@1 mark': RetrievalMark})
     dataframe.to_csv(Output_dir + '/UNITER_' + mode + '_RetrievalDetail.csv', sep=',')
