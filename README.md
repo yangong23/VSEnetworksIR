@@ -1,5 +1,5 @@
 # VSEnetworksIR
-Code will be uploaded very soon (by the 30th July 2021).
+Code will be uploaded very soon (by the 30th July 2021). VSEpp, SCAN, VSRN, and UNITER in this repository should be the independent project for running.
 
 ## VSE++, SCAN, and VSRN:
 
@@ -25,9 +25,13 @@ nltk.download()
 ``` 
 
 ### Training new models
+* For VSE++:
+``` 
+python train.py --data_path "$DATA_PATH" --data_name f30K_precomp --logger_name runs/flickr_vse++ --max_violation
+``` 
 * For SCAN:
 ``` 
-python train.py --data_path "$DATA_PATH" --data_name coco_precomp --vocab_path "$VOCAB_PATH" --logger_name runs/coco_scan/log --model_name runs/coco_scan/log --max_violation --bi_gru --agg_func=LogSumExp --cross_attn=i2t --lambda_lse=5 --lambda_softmax=4
+python train.py --data_path "$DATA_PATH" --data_name f30k_precomp --vocab_path "$VOCAB_PATH" --logger_name runs/flickr_scan/log --model_name runs/flickr_scan/log --max_violation --bi_gru --agg_func=LogSumExp --cross_attn=i2t --lambda_lse=5 --lambda_softmax=4
 ``` 
 * For VSRN:
 ``` 
