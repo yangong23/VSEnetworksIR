@@ -43,17 +43,17 @@ python train.py --data_path $DATA_PATH --data_name f30k_precomp --logger_name ru
 
 ### Evaluation
 #### 1 Evaluating the network for retrieving any 1 of 5 descriptions to the image query
-* For VSE++:
+* For VSE++: 
 Modify the model_path and data_path in the evaluation.py file. Then Run evaluation.py:
 ``` 
 python evaluation.py
 ``` 
-* For SCAN:
+* For SCAN: 
 Modify the model_path and data_path in the evaluation.py file. Then Run evaluation.py:
 ``` 
 python evaluation.py
 ``` 
-* For VSRN:
+* For VSRN: 
 Modify the model_path and data_path in the evaluation.py file. Then Run evaluation.py:
 ``` 
 python evaluation.py
@@ -61,17 +61,17 @@ python evaluation.py
 Results: Get the results on the screen printing. This repeats the work of VSE++, SCAN, and VSRN.
 
 #### 2 Evaluating the network for retrieving all 5 descriptions to the image query
-* For VSE++:
+* For VSE++: 
 Modify the model_path and data_path in the evaluation_retrieval_all5_and_any1.py file. Then Run evaluation_retrieval_all5_and_any1.py:
 ``` 
 python evaluation_retrieval_all5_and_any1.py
 ``` 
-* For SCAN:
+* For SCAN: 
 Modify the model_path and data_path in the evaluation_retrieval_all5_and_any1.py file. Then Run evaluation_retrieval_all5_and_any1.py:
 ``` 
 python evaluation_retrieval_all5_and_any1.py
 ``` 
-* For VSRN:
+* For VSRN: 
 Modify the model_path and data_path in the evaluation_retrieval_all5_and_any1.py file. Then Run evaluation_retrieval_all5_and_any1.py:
 ``` 
 python evaluation_retrieval_all5_and_any1.py
@@ -79,7 +79,7 @@ python evaluation_retrieval_all5_and_any1.py
 Results: Get the results in the folder of "i2t_Results". (1) "AveRecallPrecisionF1.csv" saves average Recall, average Precision, and average F1-Measure with all ranks.
 
 ### Limitation Analysis
-* Only for VSRN:
+* Only for VSRN: 
 Modify the model_path and data_path in the evaluation_ImageNetClass.py file. Then Run evaluation_ImageNetClass.py:
 ``` 
 python evaluation_ImageNetClass.py
