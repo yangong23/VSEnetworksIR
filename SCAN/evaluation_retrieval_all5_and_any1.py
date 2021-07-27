@@ -385,7 +385,6 @@ def i2t(images, captions, caplens, sims, npts=None, return_ranks=False):
             # Precsision
             P_retrieved = P_retrieved + 1
             if j <= 1:
-                # Precision_temp = 100.0 * MaxLSA_counter / P_retrieved
                 Precision_temp = 100.0 * Relevant_counter / P_retrieved
             else:
                 Precision_temp = 100.0 * Relevant_counter/P_retrieved
