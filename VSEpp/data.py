@@ -1,3 +1,10 @@
+# ----------------------------------------------------------------
+# Modified by Yan Gong
+# Last revised: July 2021
+# Reference: The orignal code is from VSE++: VSE++: Improving Visual-Semantic Embeddings with Hard Negatives (https://arxiv.org/abs/1707.05612).
+# The code has been modified from python2 to python3.
+# -----------------------------------------------------------------
+
 import torch
 import torch.utils.data as data
 import torchvision.transforms as transforms
@@ -7,7 +14,6 @@ from PIL import Image
 from pycocotools.coco import COCO
 import numpy as np
 import json as jsonmod
-
 
 def get_paths(path, name='coco', use_restval=False):
     """
