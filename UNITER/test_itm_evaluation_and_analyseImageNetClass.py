@@ -1,7 +1,13 @@
 # ----------------------------------------------------------------
-# Copied by Yan Gong
+# On the Limitations of Visual-Semantic Embedding Networks for Image-to-Text Information Retrieval
+# by Yan Gong, Georgina Cosma, and Hui Fang
+# Programmed by Yan Gong
 # Last revised: July 2021
-# Reference: The code is copied from UNITER: UNITER: UNiversal Image-TExt Representation Learning (https://arxiv.org/abs/1909.11740).
+# Reference: The code is modified based on UNITER: UNITER: UNiversal Image-TExt Representation Learning (https://arxiv.org/abs/1909.11740). 
+# 1 Program evaluates UNITER for retrieving any 1 of 5 descriptions to the image query.
+# 2 Program evaluates UNITER for retrieving all 5 descriptions to the image query.
+# 3 Program analyses the performance of UNITER on ImageNet classes and gets the retrieval details for all image queries (task of image-to-text retrieval).
+# Copyright (c) 2021, Yan Gong. All rights reserved.
 # -----------------------------------------------------------------
 
 import argparse
