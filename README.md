@@ -141,6 +141,18 @@ python test_itm_evaluation_and_analyseImageNetClass.py
 ``` 
 Results: Get results in the folder of "i2t_Results_and_ImageNetTopic_Results".  (1) "AveRecall_Retrieval_Any1.csv" saves average Recall @1 @5 @10 @20 for retrieving any 1 of 5 descriptions; (2) "AveRecallPrecisionF1_Retrieval_All5.csv" saves average Recall, average Precision, and average F1-Measure with all ranks for retrieving all 5 descriptions; (3) "UNITER_mode_Recall5_Precision1_Per_ImageNetClass.csv" saves Recall@5 and Precision@1 for every ImageNet class; (4) "UNITER_mode_RetrievalDetail.csv" saves the top 5 ranked retrieved descriptions to the image query for all data in the set.
 
+## Reference
+If you found this code useful, please cite the following paper:
 
+@inproceedings{gong2021limivse,
+  title={On the Limitations of Visual-Semantic Embedding Networks for Image-to-Text Information Retrieval},
+  author={Gong, Yan and Cosma, Georgina and Fang, Hui},
+  journal={Journal of Imaging},
+  volume={7},
+  number={8},
+  pages={125},
+  year={2021},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
 
 
