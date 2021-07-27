@@ -1,6 +1,6 @@
 # VSEnetworksIR
 ## Instruction
-This is the PyTorch code for analysing the limitations of VSE networks for image-to-text retrieval, which is described in the paper ["Visual Semantic Reasoning for Image-Text Matching"](https://www.mdpi.com/2313-433X/7/8/125). The code is modified from [VSE++](https://github.com/fartashf/vsepp), [SCAN](https://github.com/kuanghuei/SCAN), [VSRN](https://github.com/KunpengLi1994/VSRN), and [UNITER](https://github.com/ChenRocks/UNITER). Please notice: VSEpp(named VSE++), SCAN, VSRN, and UNITER in this repository should be the independent project respectively for running.
+This is the PyTorch code for analysing the limitations of VSE networks for image-to-text retrieval, which is described in the paper ["Visual Semantic Reasoning for Image-Text Matching"](https://www.mdpi.com/2313-433X/7/8/125). The code is modified based on [VSE++](https://github.com/fartashf/vsepp), [SCAN](https://github.com/kuanghuei/SCAN), [VSRN](https://github.com/KunpengLi1994/VSRN), and [UNITER](https://github.com/ChenRocks/UNITER). Please notice: VSEpp(named VSE++), SCAN, VSRN, and UNITER in this repository should be the independent project respectively for running.
 
 The flow of this experiment is as follows:
 * Prepare datasets and network models. Dowanload the dataset (VSE++, SCAN, and VSRN use the same data files, UNITER needs different data files). Prepared the model (traine new models for VSE++, SCAN, and VSRN, download pre-trained model for UNITER).
