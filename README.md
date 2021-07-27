@@ -30,7 +30,7 @@ We used anaconda3 to manage the dependencies, and the code was runing on a NVIDI
 
 ### Download Data
 * For VSE++, SCAN, and VSRN:
-All the data needed for reproducing the experiments in the paper, including image features and vocabularies, can be downloaded from SCAN by using:
+All the data needed for reproducing the experiments in the paper, including image features and vocabularies, can be downloaded from [SCAN](https://github.com/kuanghuei/SCAN) by using:
 ``` 
 wget https://iudata.blob.core.windows.net/scan/data.zip
 wget https://iudata.blob.core.windows.net/scan/vocab.zip
