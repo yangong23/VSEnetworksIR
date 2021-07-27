@@ -56,7 +56,7 @@ python train.py --data_path "$DATA_PATH" --data_name f30k_precomp --logger_name 
 ``` 
 * For SCAN:
 ``` 
-python train.py --data_path "$DATA_PATH" --data_name f30k_precomp --vocab_path "$VOCAB_PATH" --logger_name runs/flickr_scan/log --model_name runs/flickr_scan/log --max_violation --bi_gru --agg_func=LogSumExp --cross_attn=i2t --lambda_lse=5 --lambda_softmax=4
+python train.py --data_path "$DATA_PATH" --data_name f30k_precomp --logger_name runs/flickr_scan/log --model_name runs/flickr_scan/log --max_violation --bi_gru --agg_func=LogSumExp --cross_attn=i2t --lambda_lse=5 --lambda_softmax=4
 ``` 
 * For VSRN:
 ``` 
