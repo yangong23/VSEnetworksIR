@@ -429,7 +429,7 @@ def i2t(images, captions, caplens, sims, npts=None, return_ranks=False):
 
     dataframe = pd.DataFrame(
         {'@K': AtK, 'Average Recall RetrievalAll5': AveRecall, 'Average Precision RetrievalAll5': AvePrecision,
-         'Average F1_Measure RetrievalAll5': AveF1_Measure, 'Average Recall RetrievalAny1of5': ar})
+         'Average F1_score RetrievalAll5': AveF1_Measure, 'Average Recall RetrievalAny1of5': ar})
     dataframe.to_csv(Save_path_aveRecall + '/AveRecallPrecisionF1.csv', sep=',', index=False)
 
     medr = numpy.floor(numpy.median(ranks)) + 1
