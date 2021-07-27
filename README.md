@@ -58,17 +58,17 @@ python train.py --data_path $DATA_PATH --data_name f30k_precomp --logger_name ru
 Evaluate the network for retrieving all 5 descriptions and any 1 of 5 descriptions to image queries.
 
 * For VSE++: 
-Modify the model_path and data_path in the evaluation_retrieval_all5_and_any1.py file. Then Run evaluation_retrieval_all5_and_any1.py:
+Modify the "$MODEL_PATH" and "$DATA_PATH" in the evaluation_retrieval_all5_and_any1.py file. Then Run evaluation_retrieval_all5_and_any1.py:
 ``` 
 python evaluation_retrieval_all5_and_any1.py
 ``` 
 * For SCAN: 
-Modify the model_path and data_path in the evaluation_retrieval_all5_and_any1.py file. Then Run evaluation_retrieval_all5_and_any1.py:
+Modify the "$MODEL_PATH" and "$DATA_PATH" in the evaluation_retrieval_all5_and_any1.py file. Then Run evaluation_retrieval_all5_and_any1.py:
 ``` 
 python evaluation_retrieval_all5_and_any1.py
 ``` 
 * For VSRN: 
-Modify the model_path and data_path in the evaluation_retrieval_all5_and_any1.py file. Then Run evaluation_retrieval_all5_and_any1.py:
+Modify the "$MODEL_PATH" and "$DATA_PATH" in the evaluation_retrieval_all5_and_any1.py file. Then Run evaluation_retrieval_all5_and_any1.py:
 ``` 
 python evaluation_retrieval_all5_and_any1.py
 ``` 
