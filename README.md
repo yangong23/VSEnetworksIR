@@ -84,7 +84,7 @@ Modify the model_path and data_path in the evaluation_ImageNetClass.py file. The
 ``` 
 python evaluation_ImageNetClass.py
 ``` 
-Results: Get the results in the folder of "ImageNetTopic_Results". (1) "VSRN_mode_Recall5_Precision1_Per_ImageNetClass.csv" saves Recall@5 and Precision@1 for every ImageNet class. (2) "VSRN_mode_RetrievalDetail.csv" saves the top 5 ranked retrieved descriptions to the image query for all data in the set.
+Results: Get the results in the folder of "ImageNetTopic_Results". (1) "VSRN_mode_Recall5_Precision1_Per_ImageNetClass.csv" saves Recall@5 and Precision@1 for every ImageNet class; (2) "VSRN_mode_RetrievalDetail.csv" saves the top 5 ranked retrieved descriptions to the image query for all data in the set.
 
 
 ## UNITER:
@@ -114,7 +114,7 @@ Modify the model_path and data_path in config/evaluation-itm-flickr-base-8gpu.js
 ``` 
 python test_itm_evaluation_and_analyseImageNetClass.py 
 ``` 
-Results: Get results in the folder of "i2t_Results_and_ImageNetTopic_Results". (2) "AveRecallPrecisionF1.csv" saves average Recall, average Precision, and average F1-Measure with all ranks. (3) "UNITER_mode_Recall5_Precision1_Per_ImageNetClass.csv" saves Recall@5 and Precision@1 for every ImageNet class. (4) "UNITER_mode_RetrievalDetail.csv" saves the top 5 ranked retrieved descriptions to the image query for all data in the set.
+Results: Get results in the folder of "i2t_Results_and_ImageNetTopic_Results".  (1) "AveRecall_Retrieval_Any1.csv" saves average Recall @1 @5 @10 @20 for retrieving any 1 of 5 descriptions; (2) "AveRecallPrecisionF1_Retrieval_All5.csv" saves average Recall, average Precision, and average F1-Measure with all ranks for retrieving all 5 descriptions; (3) "UNITER_mode_Recall5_Precision1_Per_ImageNetClass.csv" saves Recall@5 and Precision@1 for every ImageNet class; (4) "UNITER_mode_RetrievalDetail.csv" saves the top 5 ranked retrieved descriptions to the image query for all data in the set.
 
 
 
