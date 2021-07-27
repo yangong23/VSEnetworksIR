@@ -33,21 +33,12 @@ nltk.download()
 We used [anaconda](https://www.anaconda.com/) to manage the dependencies, and the code was runing on a NVIDIA RTX 3080 GPU.
 
 ### Download data
-#### 1 Datasets:
 * For VSE++, SCAN, and VSRN:
 Image features can be downloaded from [SCAN](https://github.com/kuanghuei/SCAN) by using:
 ``` 
 wget https://iudata.blob.core.windows.net/scan/data.zip
 ``` 
 Extract data from data.zip, and only f30k_precomp is needed by this paper. 
-
-#### 2 Vocabularies:
-* Only for SCAN:
-Vocabularies can be downloaded from [SCAN](https://github.com/kuanghuei/SCAN) by using:
-``` 
-wget https://iudata.blob.core.windows.net/scan/vocab.zip
-```
-* VSE++ and VSRN's Vocabularies(vocab) has been uploaded in the folder of VSEpp and VSRN of this repository.
 
 ### Training new models
 * For VSE++:
