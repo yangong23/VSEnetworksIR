@@ -1,3 +1,13 @@
+# ----------------------------------------------------------------
+# On the Limitations of Visual-Semantic Embedding Networks for Image-to-Text Information Retrieval
+# by Yan Gong, Georgina Cosma, and Hui Fang
+# Programmed by Yan Gong
+# Last revised: July 2021
+# Reference: The code is modified based on VSE++: Improving Visual-Semantic Embeddings with Hard Negatives (https://arxiv.org/abs/1707.05612). 
+# Program evaluates VSE++ for retrieving all 5 descriptions to the image query.
+# Copyright (c) 2021, Yan Gong. All rights reserved.
+# -----------------------------------------------------------------
+
 from __future__ import print_function
 import os
 import pickle
