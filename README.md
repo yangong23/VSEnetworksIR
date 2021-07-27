@@ -92,6 +92,7 @@ Results: Get the results in the folder of "ImageNetTopic_Results". (1) "VSRN_mod
 ### Requirements and Installation
 
 The requirements and installation can be followed by the official introduction of [UNITER](https://github.com/ChenRocks/UNITER). Please install the following:
+* ubuntu (>18.04)
 
 * [nvidia driver](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#package-manager-installation) (418+)
 
