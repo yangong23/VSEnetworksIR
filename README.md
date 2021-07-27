@@ -143,7 +143,8 @@ Results: Get results in the folder of "i2t_Results_and_ImageNetTopic_Results".  
 
 ## Reference
 If you found this code useful, please cite the following paper:
-   @inproceedings{gong2021limivse,
+
+      @inproceedings{gong2021limivse,
       title={On the Limitations of Visual-Semantic Embedding Networks for Image-to-Text Information Retrieval},
       author={Gong, Yan and Cosma, Georgina and Fang, Hui},
       journal={Journal of Imaging},
