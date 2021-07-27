@@ -33,7 +33,7 @@ np.seterr(divide='ignore',invalid='ignore')
 def itm_eval(score_matrix, txt_ids, img_ids, txt2img, img2txts):
 
     sourcePath = './source/'
-    Output_dir = './i2t_Results_and_ImageNetTopic_Results'
+    Output_dir = './i2t_Results_and_ImageNetClass_Results'
     if not os.path.exists(Output_dir):
         os.makedirs(Output_dir)
 
