@@ -7,7 +7,7 @@ Notice: VSEpp(named VSE++), SCAN, VSRN, and UNITER in this repository should be 
 
 ### Requirements and Installation
 We recommended the following dependencies.
-* ubuntu (>18.04)
+* ubuntu (>=18.04)
 
 * Python 3.8
 
