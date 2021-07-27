@@ -39,7 +39,7 @@ Image features can be downloaded from [SCAN](https://github.com/kuanghuei/SCAN) 
 ``` 
 wget https://iudata.blob.core.windows.net/scan/data.zip
 ``` 
-Only Flirk30K is needed by this paper. 
+Extract data from data.zip, and only f30k_precomp is needed by this paper. 
 
 #### 2 Vocabularies:
 * Only for SCAN:
