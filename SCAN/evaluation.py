@@ -36,7 +36,7 @@ import pandas as pd
 
 def main():
 
-    evalrank("$MODEL_PATH", data_path="$DATA_PATH", split="test")
+    evalrank("./pretrain_model/model_best.pth.tar", data_path="/home/yan/data", split="test")
 
 class AverageMeter(object):
     """Computes and stores the average and current value"""
@@ -160,8 +160,6 @@ def evalrank(model_path, data_path=None, split='dev', fold5=False):
     used for evaluation.
     """
 
-    from time import time
-    s0 = time()
     # load model and options
     checkpoint = torch.load(model_path)
     opt = checkpoint['opt']
@@ -180,7 +178,6 @@ def evalrank(model_path, data_path=None, split='dev', fold5=False):
     model.load_state_dict(checkpoint['model'])
 
     print('Loading dataset')
-    s = time()
 
     data_loader = get_test_loader(split, opt.data_name, vocab,
                                   opt.batch_size, opt.workers, opt)
@@ -194,22 +191,17 @@ def evalrank(model_path, data_path=None, split='dev', fold5=False):
     if not fold5:
         # no cross-validation, full evaluation
         img_embs = np.array([img_embs[i] for i in range(0, len(img_embs), 5)])
-        start = time()
+        start = time.time()
         if opt.cross_attn == 't2i':
             sims = shard_xattn_t2i(img_embs, cap_embs, cap_lens, opt, shard_size=128)
         elif opt.cross_attn == 'i2t':
             sims = shard_xattn_i2t(img_embs, cap_embs, cap_lens, opt, shard_size=128)
         else:
             raise NotImplementedError
-        end = time()
+        end = time.time()
         print("calculate similarity time:", end-start)
 
         r, rt = i2t(img_embs, cap_embs, cap_lens, sims, return_ranks=True)
-
-        end_time = time()
-
-        print("time:%.2f" % (end_time - s))  # 结束时间-开始时间
-        print("time:%.2f" % (end_time - s0))  # 结束时间-开始时间
 
         ri, rti = t2i(img_embs, cap_embs, cap_lens, sims, return_ranks=True)
         ar = (r[0] + r[1] + r[2]) / 3
