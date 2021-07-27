@@ -9,7 +9,7 @@ The flow of this experiment is as follows:
 
 ## Run VSE++, SCAN, and VSRN Projects
 
-### Requirements and Installation
+### Requirements and installation
 We recommended the following dependencies.
 * ubuntu (>=18.04)
 
@@ -32,7 +32,7 @@ nltk.download()
 ``` 
 We used anaconda3 to manage the dependencies, and the code was runing on a NVIDIA RTX 3080 GPU.
 
-### Download Data
+### Download data
 #### 1 Datasets:
 * For VSE++, SCAN, and VSRN:
 Image features can be downloaded from [SCAN](https://github.com/kuanghuei/SCAN) by using:
@@ -100,7 +100,7 @@ python evaluation_retrieval_all5_and_any1.py
 ``` 
 Results: Get the results in the folder of "i2t_Results". (1) "AveRecallPrecisionF1.csv" saves average Recall, average Precision, and average F1-Measure with all ranks.
 
-### Limitation Analysis
+### Limitation analysis
 * Only for VSRN: 
 Modify the model_path and data_path in the evaluation_ImageNetClass.py file. Then Run evaluation_ImageNetClass.py:
 ``` 
@@ -110,7 +110,7 @@ Results: Get the results in the folder of "ImageNetTopic_Results". (1) "VSRN_mod
 
 
 ## Run UNITER Project
-### Requirements and Installation
+### Requirements and installation
 
 The requirements and installation can be followed by the official introduction of [UNITER](https://github.com/ChenRocks/UNITER). Official introduction requires to install the following:
 
@@ -124,7 +124,7 @@ The scripts require the user to have the [docker group membership](https://docs.
 
 We used Python 3.8 and Pytorch 1.7.1 with anaconda3 environment, and the code was runing on a NVIDIA RTX 3080 GPU with the system of ubuntu 18.04.
 
-### Download Data and Trained Models
+### Download data and pre-trained models
 * Download image features and trained models:
 ``` 
 bash scripts/download_itm.sh $PATH_TO_STORAGE
@@ -133,7 +133,7 @@ Only Flirk30K is needed by this paper. The model is dowbloaded, we do not train 
 
 * Download [the JSON file of Flickr30K produced by Andrej Karpathy](https://cs.stanford.edu/people/karpathy/deepimagesent/). Extract zip file to get "dataset.json" and copy "dataset.json" into the root of UNITER project.
 
-### Evaluation and Limitation Analysis
+### Evaluation and limitation analysis
 * Evaluating UNITER for retrieving any 1 of 5 descriptions, evaluating UNITER for retrieving all 5 descriptions, and analysing limitations of UNITER can be finished by runing one python file.
 Modify the model_path and data_path in config/evaluation-itm-flickr-base-8gpu.json file. Then Run test_itm_evaluation_and_analyseImageNetClass.py:
 ``` 
