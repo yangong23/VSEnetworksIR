@@ -1,5 +1,5 @@
 # VSEnetworksIR
-Code will be uploaded very soon (by the 30th July 2021). VSEpp, SCAN, VSRN, and UNITER in this repository should be the independent project for running.
+Code will be uploaded very soon (by the 30th July 2021). VSEpp(named VSE++), SCAN, VSRN, and UNITER in this repository should be the independent project for running.
 
 ## VSE++, SCAN, and VSRN:
 
