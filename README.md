@@ -113,7 +113,7 @@ Only flickr30k is needed by this paper. The model is downloaded, we do not need 
 
 ### Evaluation and limitation analysis
 * Evaluating UNITER for retrieving any 1 of 5 descriptions, evaluating UNITER for retrieving all 5 descriptions, and analysing limitations of UNITER can be finished by runing one python file.
-Modify the model_path and data_path in config/evaluation-itm-flickr-base-8gpu.json file. Then Run test_itm_evaluation_and_analyseImageNetClass.py:
+Modify the "$MODEL_PATH" and "$DATA_PATH" in config/evaluation-itm-flickr-base-8gpu.json file. Then Run test_itm_evaluation_and_analyseImageNetClass.py:
 ``` 
 python test_itm_evaluation_and_analyseImageNetClass.py 
 ``` 
