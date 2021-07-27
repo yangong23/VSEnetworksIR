@@ -34,7 +34,7 @@ from utils.misc import NoOp, parse_with_config, set_dropout, set_random_seed
 from utils.const import IMG_DIM
 from time import time
 
-from utils_itm_evaluation_and_analyseImageNetTopics import evaluate_and_analyseImageNetTopics
+from utils_itm_evaluation_and_analyseImageNetClass import evaluate_and_analyseImageNetClass
 
 def build_dataloader(dataset, collate_fn, is_train, opts):
     # batch_size = opts.train_batch_size if is_train else 1
