@@ -5,7 +5,7 @@ Code will be uploaded very soon (by the 30th July 2021). VSEpp, SCAN, VSRN, and 
 
 ### Requirements and Installation
 We recommended the following dependencies.
-* ununtu (>18.04)
+* ubuntu (>18.04)
 
 * Python 3.8
 
