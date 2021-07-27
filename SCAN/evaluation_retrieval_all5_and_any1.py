@@ -159,9 +159,6 @@ def evalrank(model_path, data_path=None, split='dev', fold5=False):
     if data_path is not None:
         opt.data_path = data_path
 
-    opt.vocab_path = '/home/yan/data/vocab/'
-    # x = os.path.join(opt.vocab_path, '%s_vocab.json' % opt.data_name)
-    # print(opt.vocab_path)
 
     # load vocabulary used by the model
     vocab = deserialize_vocab(os.path.join(opt.vocab_path, '%s_vocab.json' % opt.data_name))
