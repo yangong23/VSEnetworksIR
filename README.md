@@ -125,10 +125,11 @@ The scripts require the user to have the [docker group membership](https://docs.
 We used Python 3.8 and Pytorch 1.7.1 with anaconda3 environment, and the code was runing on a NVIDIA RTX 3080 GPU with the system of ubuntu 18.04.
 
 ### Download Data and Trained Models
-* Download data and trained models:
+* Download image features and trained models:
 ``` 
 bash scripts/download_itm.sh $PATH_TO_STORAGE
-``` 
+```
+Only Flirk30K is needed by this paper. The model is dowbloaded, we do not train a new model.
 
 * Download [the JSON file of Flickr30K produced by Andrej Karpathy](https://cs.stanford.edu/people/karpathy/deepimagesent/). Extract zip file to get "dataset.json" and copy "dataset.json" into the root of UNITER project.
 
