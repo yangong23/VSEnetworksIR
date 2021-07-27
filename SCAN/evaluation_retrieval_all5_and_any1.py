@@ -2,7 +2,7 @@
 # On the Limitations of Visual-Semantic Embedding Networks for Image-to-Text Information Retrieval
 # by Yan Gong, Georgina Cosma, and Hui Fang
 # Programmed by Yan Gong
-# Last revised:  July 2021
+# Last revised: July 2021
 # Reference: The code is modified based on SCAN: Stacked Cross Attention for Image-Text Matching (https://arxiv.org/abs/1803.08024). 
 # Program evaluates SCAN for retrieving all 5 descriptions to the image query.
 # Copyright (c) 2021, Yan Gong. All rights reserved.
