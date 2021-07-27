@@ -23,7 +23,7 @@ import pandas as pd
 from tqdm import tqdm
 
 def main():
-    evalrank("./pretrain_model/model_best.pth.tar", data_path="/home/yan/data", split="test", fold5=False)
+    evalrank("$MODEL_PATH", data_path="$DATA_PATH", split="test", fold5=False)
 
 class AverageMeter(object):
     """Computes and stores the average and current value"""
