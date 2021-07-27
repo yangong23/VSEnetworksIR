@@ -295,3 +295,6 @@ def t2i(images, captions, npts=None, measure='cosine', return_ranks=False):
         return (r1, r5, r10, medr, meanr), (ranks, top1)
     else:
         return (r1, r5, r10, medr, meanr)
+     
+if __name__ == '__main__':
+    main()
