@@ -52,7 +52,7 @@ wget https://iudata.blob.core.windows.net/scan/vocab.zip
 ### Training new models
 * For VSE++:
 ``` 
-python train.py --data_path "$DATA_PATH" --data_name f30K_precomp --logger_name runs/flickr_vse++ --max_violation
+python train.py --data_path "$DATA_PATH" --data_name f30k_precomp --logger_name runs/flickr_vse++ --max_violation
 ``` 
 * For SCAN:
 ``` 
