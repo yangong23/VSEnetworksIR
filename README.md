@@ -55,6 +55,7 @@ python evaluation.py
 ``` 
 python evaluation.py
 ``` 
+Get the results on the screen printing.
 
 #### 2 Evaluating the network for retrieving all 5 descriptions to the image query
 * For VSE++:
@@ -69,20 +70,14 @@ python evaluation_retrieval_all5_and_any1.py
 ``` 
 python evaluation_retrieval_all5_and_any1.py
 ``` 
+Get the results in the folder of "i2t_Results".
 
 ### Limitation Analysis
-* For VSE++:
+* Only for VSRN:
 ``` 
-python evaluation.py
+python evaluation_ImageNetTopics.py
 ``` 
-* For SCAN:
-``` 
-python evaluation.py
-``` 
-* For VSRN:
-``` 
-python evaluation.py
-``` 
+Get the results in the folder of "ImageNetTopic_Results".
 
 
 ## UNITER:
