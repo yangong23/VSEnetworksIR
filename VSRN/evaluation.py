@@ -11,7 +11,10 @@ from vocab import Vocabulary  # NOQA
 from model import VSRN, order_sim
 from collections import OrderedDict
 
+def main():
 
+     evalrank("$MODEL_PATH", data_path="$DATA_PATH", split="test", fold5=False)
+        
 class AverageMeter(object):
     """Computes and stores the average and current value"""
 
