@@ -3,9 +3,9 @@
 This is the PyTorch code for analysing the limitations of VSE networks for image-to-text retrieval, which is described in the paper ["On the Limitations of Visual-Semantic Embedding Networks for Image-to-Text Information Retrieval"](https://www.mdpi.com/2313-433X/7/8/125). The code is modified based on [VSE++](https://github.com/fartashf/vsepp), [SCAN](https://github.com/kuanghuei/SCAN), [VSRN](https://github.com/KunpengLi1994/VSRN), and [UNITER](https://github.com/ChenRocks/UNITER). Please note: VSEpp (named VSE++), SCAN, VSRN, and UNITER in this repository should each be run as independent projects.
 
 The flow of this experiment is as follows:
-* Prepare datasets and network models. Dowanload the dataset (VSE++, SCAN, and VSRN use the same data files, UNITER needs different data files). Prepare the models (train new models for VSE++, SCAN, and VSRN, download the pre-trained model for UNITER).
-* Evaluate VSE networks (VSE++, SCAN, VSRN, and UNITER). (1) Evaluate the network for retrieving any 1 of 5 descriptions to image queries; (2) evaluate the network for retrieving all 5 descriptions to image queries.
-* Analyse limitations of VSE networks (only for VSRN and UNITER). (1) To compute average Recall@5 and Precision@1 for each ImageNet class separately; (2) To get retrieval details for all image queries.
+* Prepare datasets and network models: (1) Dowanload the dataset (VSE++, SCAN, and VSRN use the same data files, UNITER needs different data files); (2) Prepare the models (train new models for VSE++, SCAN, and VSRN, download the pre-trained model for UNITER).
+* Evaluate VSE networks (VSE++, SCAN, VSRN, and UNITER): (1) Evaluate the network for retrieving any 1 of 5 descriptions to image queries; (2) evaluate the network for retrieving all 5 descriptions to image queries.
+* Analyse limitations of VSE networks (only for VSRN and UNITER): (1) Compute average Recall@5 and Precision@1 for each ImageNet class separately; (2) Get retrieval result details for all image queries.
 
 ## Run VSE++, SCAN, and VSRN Projects
 
