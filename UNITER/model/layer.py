@@ -1,3 +1,9 @@
+# ----------------------------------------------------------------
+# Copied by Yan Gong
+# Last revised: July 2021
+# Reference: The code is copied from UNITER: UNITER: UNiversal Image-TExt Representation Learning (https://arxiv.org/abs/1909.11740).
+# -----------------------------------------------------------------
+
 """
 BERT layers from the huggingface implementation
 (https://github.com/huggingface/transformers)
