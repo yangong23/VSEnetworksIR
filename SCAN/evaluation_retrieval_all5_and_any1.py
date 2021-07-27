@@ -1,11 +1,13 @@
-# -----------------------------------------------------------
-# Stacked Cross Attention Network implementation based on 
-# https://arxiv.org/abs/1803.08024.
-# "Stacked Cross Attention for Image-Text Matching"
-# Kuang-Huei Lee, Xi Chen, Gang Hua, Houdong Hu, Xiaodong He
-#
-# Writen by Kuang-Huei Lee, 2018
-# ---------------------------------------------------------------
+# ----------------------------------------------------------------
+# On the Limitations of Visual-Semantic Embedding Networks for Image-to-Text Information Retrieval
+# by Yan Gong, Georgina Cosma, and Hui Fang
+# Programmed by Yan Gong
+# Last revised:  July 2021
+# Reference: the code is modified from SCAN: Stacked Cross Attention for Image-Text Matching. 
+# Program evaluates SCAN for retrieving all 5 descriptions to the image query.
+# Copyright (c) 2021, Yan Gong, Georgina Cosma, and Hui Fang. All rights reserved.
+# -----------------------------------------------------------------
+
 """Evaluation"""
 
 from __future__ import print_function
