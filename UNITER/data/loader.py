@@ -1,3 +1,10 @@
+# ----------------------------------------------------------------
+# Modified by Yan Gong
+# Last revised: July 2021
+# Reference: The orignal code is from UNITER: UNITER: UNiversal Image-TExt Representation Learning (https://arxiv.org/abs/1909.11740).
+# The code has been modified to be used by VSEnetworksIR.
+# -----------------------------------------------------------------
+
 """
 Copyright (c) Microsoft Corporation.
 Licensed under the MIT license.
