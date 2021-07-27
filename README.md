@@ -34,7 +34,7 @@ We used [anaconda](https://www.anaconda.com/) to manage the dependencies, and th
 
 ### Download data
 * For VSE++, SCAN, and VSRN:
-Image features can be downloaded from [SCAN](https://github.com/kuanghuei/SCAN) by using:
+The precomputed image features of Flickr30K can be downloaded from [SCAN](https://github.com/kuanghuei/SCAN) by using:
 ``` 
 wget https://iudata.blob.core.windows.net/scan/data.zip
 ``` 
@@ -103,7 +103,7 @@ The scripts require the user to have the [docker group membership](https://docs.
 We used Python 3.8 and [PyTorch](https://pytorch.org/) 1.7.1 in the [anaconda](https://www.anaconda.com/) environment, and the code was runing on a NVIDIA RTX 3080 GPU with the system of ubuntu 18.04.
 
 ### Download data and pre-trained models
-* 1 Download image features and trained models:
+* 1 Download the precomputed image features of Flickr30K and trained models:
 ``` 
 bash scripts/download_itm.sh $PATH_TO_STORAGE
 ```
