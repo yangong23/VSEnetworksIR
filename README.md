@@ -29,12 +29,21 @@ nltk.download()
 We used anaconda3 to manage the dependencies, and the code was runing on a NVIDIA RTX 3080 GPU.
 
 ### Download Data
+#### 1 Datasets:
 * For VSE++, SCAN, and VSRN:
-All the data needed for reproducing the experiments in the paper, including image features and vocabularies, can be downloaded from [SCAN](https://github.com/kuanghuei/SCAN) by using:
+Image features can be downloaded from [SCAN](https://github.com/kuanghuei/SCAN) by using:
 ``` 
 wget https://iudata.blob.core.windows.net/scan/data.zip
-wget https://iudata.blob.core.windows.net/scan/vocab.zip
 ``` 
+Only Flirk30K is needed by this paper. 
+
+#### 2 Vocabularies:
+* Only for SCAN:
+Vocabularies can be downloaded from [SCAN](https://github.com/kuanghuei/SCAN) by using:
+``` 
+wget https://iudata.blob.core.windows.net/scan/vocab.zip
+```
+* VSE++ and VSRN's Vocabularies(vocab) has been uploaded in the folder of VSEpp and VSRN of this repository.
 
 ### Training new models
 * For VSE++:
