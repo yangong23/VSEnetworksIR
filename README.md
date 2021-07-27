@@ -55,7 +55,7 @@ python evaluation.py
 ``` 
 python evaluation.py
 ``` 
-Get the results on the screen printing.
+Get the results on the screen printing. This repeats the work of VSE++, SCAN, and VSRN.
 
 #### 2 Evaluating the network for retrieving all 5 descriptions to the image query
 * For VSE++:
@@ -77,7 +77,7 @@ Get the results in the folder of "i2t_Results". "AveRecallPrecisionF1.csv" saves
 ``` 
 python evaluation_ImageNetTopics.py
 ``` 
-Get the results in the folder of "ImageNetTopic_Results". "VSRN_mode_Recall@ 5Precision@ 1_Per_ImageNetTopic.csv" saves Recall@5 and Precision@1 for every ImageNet class. "VSRN_mode_RetrievalDetail.csv" saves the top 5 ranked retrieved descriptions to the image query for all data in the set.
+Get the results in the folder of "ImageNetTopic_Results". "VSRN_mode_Recall5_Precision1_Per_ImageNetClass.csv" saves Recall@5 and Precision@1 for every ImageNet class. "VSRN_mode_RetrievalDetail.csv" saves the top 5 ranked retrieved descriptions to the image query for all data in the set.
 
 
 ## UNITER:
