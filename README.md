@@ -70,14 +70,14 @@ python evaluation_retrieval_all5_and_any1.py
 ``` 
 python evaluation_retrieval_all5_and_any1.py
 ``` 
-Get the results in the folder of "i2t_Results". "VSRN_mode_Recall@5Precision@1_Per_ImageNetTopic.csv" saves average Recall, average Precision, and average F1-Measure with all ranks.
+Get the results in the folder of "i2t_Results". "AveRecallPrecisionF1.csv" saves average Recall, average Precision, and average F1-Measure with all ranks.
 
 ### Limitation Analysis
 * Only for VSRN:
 ``` 
 python evaluation_ImageNetTopics.py
 ``` 
-Get the results in the folder of "ImageNetTopic_Results". "VSRN_mode_Recall@5Precision@1_Per_ImageNetTopic.csv" saves Recall@5 and Precision@1 for every ImageNet class. "VSRN_mode_RetrievalDetail.csv" saves the top 5 ranked retrieved descriptions to the image query for all data in the set.
+Get the results in the folder of "ImageNetTopic_Results". "VSRN_mode_Recall@ 5Precision@ 1_Per_ImageNetTopic.csv" saves Recall@5 and Precision@1 for every ImageNet class. "VSRN_mode_RetrievalDetail.csv" saves the top 5 ranked retrieved descriptions to the image query for all data in the set.
 
 
 ## UNITER:
