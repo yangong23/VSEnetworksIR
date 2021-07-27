@@ -42,7 +42,7 @@ python train.py --data_path $DATA_PATH --data_name f30k_precomp --logger_name ru
 ``` 
 
 ### Evaluation
-#### Evaluating the network for retrieving any 1 of 5 descriptions to the image query
+#### 1 Evaluating the network for retrieving any 1 of 5 descriptions to the image query
 * For VSE++:
 ``` 
 python evaluation.py
@@ -56,7 +56,21 @@ python evaluation.py
 python evaluation.py
 ``` 
 
-#### Evaluating the network for retrieving all 5 descriptions to the image query
+#### 2 Evaluating the network for retrieving all 5 descriptions to the image query
+* For VSE++:
+``` 
+python evaluation_retrieval_all5_and_any1.py
+``` 
+* For SCAN:
+``` 
+python evaluation_retrieval_all5_and_any1.py
+``` 
+* For VSRN:
+``` 
+python evaluation_retrieval_all5_and_any1.py
+``` 
+
+### Limitation Analysis
 * For VSE++:
 ``` 
 python evaluation.py
