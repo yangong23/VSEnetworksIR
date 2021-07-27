@@ -24,6 +24,16 @@ nltk.download()
 > d punkt
 ``` 
 
+### Training new models
+* For SCAN:
+``` 
+python train.py --data_path "$DATA_PATH" --data_name coco_precomp --vocab_path "$VOCAB_PATH" --logger_name runs/coco_scan/log --model_name runs/coco_scan/log --max_violation --bi_gru --agg_func=LogSumExp --cross_attn=i2t --lambda_lse=5 --lambda_softmax=4
+``` 
+* For VSRN:
+``` 
+python train.py --data_path $DATA_PATH --data_name f30k_precomp --logger_name runs/flickr_VSRN --max_violation --lr_update 10  --max_len 60
+``` 
+
 ## UNITER:
 ### Requirements and Installation
 
