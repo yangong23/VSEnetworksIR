@@ -143,9 +143,9 @@ Results: Get results in the folder of "i2t_Results_and_ImageNetTopic_Results".  
 
 ## Reference
 If you found this code useful, please cite the following paper:
-```
-Gong Y, Cosma G, Fang H. On the Limitations of Visual-Semantic Embedding Networks for Image-to-Text Information Retrieval[J]. Journal of Imaging, 2021, 7(8): 125.
-```
+
+*Gong Y, Cosma G, Fang H. On the Limitations of Visual-Semantic Embedding Networks for Image-to-Text Information Retrieval[J]. Journal of Imaging, 2021, 7(8): 125.*
+
 BibTeX:
 
     @inproceedings{gong2021limivse,
