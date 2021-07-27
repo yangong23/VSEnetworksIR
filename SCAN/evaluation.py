@@ -28,15 +28,10 @@ from model import SCAN, xattn_score_t2i, xattn_score_i2t
 from collections import OrderedDict
 import time
 from torch.autograd import Variable
-from vocab import Vocabulary
-import numpy
-import evaluation
-import math
-import pandas as pd
 
 def main():
 
-    evalrank("$MODEL_PATH", data_path="$DATA_PATH", split="test")
+    evalrank("./pretrain_model/model_best.pth.tar", data_path="/home/yan/data", split="test")
 
 class AverageMeter(object):
     """Computes and stores the average and current value"""
