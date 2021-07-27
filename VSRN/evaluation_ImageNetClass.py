@@ -228,7 +228,7 @@ def i2t(images, captions, npts=None, measure='cosine', return_ranks=False, mode 
     top1 = numpy.zeros(npts)
 
     sourcePath = './source/'
-    outputPath = './ImageNetTopic_Results'
+    outputPath = './ImageNetClass_Results'
     if not os.path.exists(outputPath):
         os.makedirs(outputPath)
 
