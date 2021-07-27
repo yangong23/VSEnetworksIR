@@ -23,7 +23,7 @@ import pandas as pd
 from tqdm import tqdm
 
 def main():
-    evalrank("$MODEL_PATH", data_path="$DATA_PATH", split="test", fold5=False)
+    evalrank("./pretrain_model/model_best.pth.tar", data_path="/home/yan/data", split="test", fold5=False)
 
 class AverageMeter(object):
     """Computes and stores the average and current value"""
@@ -365,7 +365,7 @@ def i2t(images, captions, npts=None, measure='cosine', return_ranks=False, mode 
         AvePrecisionPerTopic_p1.append(AvePrecisionPerTopic[i][0])
 
     ImageNetID = [i for i in range(1000)]
-    dataframe = pd.DataFrame({'ImageNet Class ID': ImageNetID, 'Average Recall@5 (%)': AveRecallPerTopic_r5, 'Average Precision@1 (%)': AvePrecisionPerTopic_p1})
+    dataframe = pd.DataFrame({'ImageNet Class ID': ImageNetID, 'Image Number': ImageTopicNum, 'Average Recall@5 (%)': AveRecallPerTopic_r5, 'Average Precision@1 (%)': AvePrecisionPerTopic_p1})
     dataframe.to_csv(outputPath + '/VSRN_' + mode + '_Recall5_Precision1_Per_ImageNetClass.csv', sep=',')
 
     dataframe = pd.DataFrame({'Query Image Name': imageNames, 'Query Image ID': imageID, 'Retrieved Results': RetrievalResult, '@1 Mark': RetrievalMark})
