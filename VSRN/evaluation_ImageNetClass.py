@@ -365,7 +365,7 @@ def i2t(images, captions, npts=None, measure='cosine', return_ranks=False, mode 
         AvePrecisionPerTopic_p1.append(AvePrecisionPerTopic[i][0])
 
     ImageNetID = [i for i in range(1000)]
-    dataframe = pd.DataFrame({'ImageNet ID': ImageNetID, 'Average Recall@5 (%)': AveRecallPerTopic_r5, 'Average Precision@1 (%)': AvePrecisionPerTopic_p1})
+    dataframe = pd.DataFrame({'ImageNet Class ID': ImageNetID, 'Average Recall@5 (%)': AveRecallPerTopic_r5, 'Average Precision@1 (%)': AvePrecisionPerTopic_p1})
     dataframe.to_csv(outputPath + '/VSRN_' + mode + '_Recall5_Precision1_Per_ImageNetClass.csv', sep=',')
 
     dataframe = pd.DataFrame({'Query Image Name': imageNames, 'Query Image ID': imageID, 'Retrieved Results': RetrievalResult, '@1 Mark': RetrievalMark})
