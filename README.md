@@ -41,6 +41,36 @@ python train.py --data_path "$DATA_PATH" --data_name f30k_precomp --vocab_path "
 python train.py --data_path $DATA_PATH --data_name f30k_precomp --logger_name runs/flickr_VSRN --max_violation --lr_update 10  --max_len 60
 ``` 
 
+### Evaluation
+#### Evaluating the network for retrieving any 1 of 5 descriptions to the image query
+* For VSE++:
+``` 
+python evaluation.py
+``` 
+* For SCAN:
+``` 
+python evaluation.py
+``` 
+* For VSRN:
+``` 
+python evaluation.py
+``` 
+
+#### Evaluating the network for retrieving all 5 descriptions to the image query
+* For VSE++:
+``` 
+python evaluation.py
+``` 
+* For SCAN:
+``` 
+python evaluation.py
+``` 
+* For VSRN:
+``` 
+python evaluation.py
+``` 
+
+
 ## UNITER:
 ### Requirements and Installation
 
