@@ -44,40 +44,47 @@ python train.py --data_path $DATA_PATH --data_name f30k_precomp --logger_name ru
 ### Evaluation
 #### 1 Evaluating the network for retrieving any 1 of 5 descriptions to the image query
 * For VSE++:
+Modify the model_path and data_path in the evaluation.py file. Then Run evaluation.py:
 ``` 
 python evaluation.py
 ``` 
 * For SCAN:
+Modify the model_path and data_path in the evaluation.py file. Then Run evaluation.py:
 ``` 
 python evaluation.py
 ``` 
 * For VSRN:
+Modify the model_path and data_path in the evaluation.py file. Then Run evaluation.py:
 ``` 
 python evaluation.py
 ``` 
-Get the results on the screen printing. This repeats the work of VSE++, SCAN, and VSRN.
+Results: Get the results on the screen printing. This repeats the work of VSE++, SCAN, and VSRN.
 
 #### 2 Evaluating the network for retrieving all 5 descriptions to the image query
 * For VSE++:
+Modify the model_path and data_path in the evaluation_retrieval_all5_and_any1.py file. Then Run evaluation_retrieval_all5_and_any1.py:
 ``` 
 python evaluation_retrieval_all5_and_any1.py
 ``` 
 * For SCAN:
+Modify the model_path and data_path in the evaluation_retrieval_all5_and_any1.py file. Then Run evaluation_retrieval_all5_and_any1.py:
 ``` 
 python evaluation_retrieval_all5_and_any1.py
 ``` 
 * For VSRN:
+Modify the model_path and data_path in the evaluation_retrieval_all5_and_any1.py file. Then Run evaluation_retrieval_all5_and_any1.py:
 ``` 
 python evaluation_retrieval_all5_and_any1.py
 ``` 
-Get the results in the folder of "i2t_Results". "AveRecallPrecisionF1.csv" saves average Recall, average Precision, and average F1-Measure with all ranks.
+Results: Get the results in the folder of "i2t_Results". (1) "AveRecallPrecisionF1.csv" saves average Recall, average Precision, and average F1-Measure with all ranks.
 
 ### Limitation Analysis
 * Only for VSRN:
+Modify the model_path and data_path in the evaluation_ImageNetClass.py file. Then Run evaluation_ImageNetClass.py:
 ``` 
 python evaluation_ImageNetClass.py
 ``` 
-Get the results in the folder of "ImageNetTopic_Results". "VSRN_mode_Recall5_Precision1_Per_ImageNetClass.csv" saves Recall@5 and Precision@1 for every ImageNet class. "VSRN_mode_RetrievalDetail.csv" saves the top 5 ranked retrieved descriptions to the image query for all data in the set.
+Results: Get the results in the folder of "ImageNetTopic_Results". (1) "VSRN_mode_Recall5_Precision1_Per_ImageNetClass.csv" saves Recall@5 and Precision@1 for every ImageNet class. (2) "VSRN_mode_RetrievalDetail.csv" saves the top 5 ranked retrieved descriptions to the image query for all data in the set.
 
 
 ## UNITER:
@@ -102,14 +109,12 @@ bash scripts/download_itm.sh $PATH_TO_STORAGE
 * Download [the JSON file of Flickr30K produced by Andrej Karpathy](https://cs.stanford.edu/people/karpathy/deepimagesent/). Extract zip file to get "dataset.json" and copy "dataset.json" into the root of UNITER project.
 
 ### Evaluation and Limitation Analysis
-* Open the file of "config/evaluation-itm-flickr-base-8gpu.json" and set DATA PATH and MODEL PATH in it.
-
-* Evaluating UNITER for retrieving any 1 of 5 descriptions, evaluating UNITER for retrieving all 5 descriptions, and analysing limitations of UNITER can be finished by runing one python file:
+* Evaluating UNITER for retrieving any 1 of 5 descriptions, evaluating UNITER for retrieving all 5 descriptions, and analysing limitations of UNITER can be finished by runing one python file.
+Modify the model_path and data_path in config/evaluation-itm-flickr-base-8gpu.json file. Then Run test_itm_evaluation_and_analyseImageNetClass.py:
 ``` 
 python test_itm_evaluation_and_analyseImageNetClass.py 
 ``` 
-
-* Find results in the folder of "i2t_Results_and_ImageNetTopic_Results".
+Results: Get results in the folder of "i2t_Results_and_ImageNetTopic_Results". (2) "AveRecallPrecisionF1.csv" saves average Recall, average Precision, and average F1-Measure with all ranks. (3) "UNITER_mode_Recall5_Precision1_Per_ImageNetClass.csv" saves Recall@5 and Precision@1 for every ImageNet class. (4) "UNITER_mode_RetrievalDetail.csv" saves the top 5 ranked retrieved descriptions to the image query for all data in the set.
 
 
 
