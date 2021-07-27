@@ -131,7 +131,7 @@ bash scripts/download_itm.sh $PATH_TO_STORAGE
 ```
 Only Flirk30K is needed by this paper. The model is downloaded, we do not need to train a new model.
 
-* Download [the JSON file of Flickr30K produced by Andrej Karpathy](https://cs.stanford.edu/people/karpathy/deepimagesent/) (find the download button "Flickr30K (200M)" in the section of Code from the link web). Extract "dataset.json" file from flickr30k.zip and copy "dataset.json" file into the root of UNITER project.
+* Download [the JSON file of Flickr30K](https://cs.stanford.edu/people/karpathy/deepimagesent/flickr30k.zip) produced by [Andrej Karpathy](https://cs.stanford.edu/people/karpathy/deepimagesent/). Extract "dataset.json" file from flickr30k.zip and copy "dataset.json" file into the root of UNITER project.
 
 ### Evaluation and limitation analysis
 * Evaluating UNITER for retrieving any 1 of 5 descriptions, evaluating UNITER for retrieving all 5 descriptions, and analysing limitations of UNITER can be finished by runing one python file.
