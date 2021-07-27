@@ -72,7 +72,7 @@ Modify the model_path and data_path in the evaluation_retrieval_all5_and_any1.py
 ``` 
 python evaluation_retrieval_all5_and_any1.py
 ``` 
-Results: Get the results in the folder of "i2t_Results". (1) "AveRecallPrecisionF1.csv" saves average Recall, average Precision, average F1-score for all ranks on retrieving all 5 descriptions to the image query, and verage Recall for all ranks on retrieving any 1 of 5 descriptions to the image query.
+Results: Get the results in the folder of "i2t_Results". (1) "AveRecallPrecisionF1.csv" saves average Recall, average Precision, average F1-score for all ranks on retrieving all 5 descriptions to the image query, and average Recall for all ranks on retrieving any 1 of 5 descriptions to the image query.
 
 ### Limitation analysis
 * Only for VSRN: 
