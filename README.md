@@ -4,7 +4,7 @@ This is the PyTorch code for analysing the limitations of VSE networks for image
 
 The flow of this experiment is as follows:
 * Prepare datasets and network models. Dowanload the dataset (VSE++, SCAN, and VSRN use the same data files, UNITER needs different data files). Prepared the model (traine new models for VSE++, SCAN, and VSRN, download pre-trained model for UNITER).
-* Evaluate VSE networks (VSE++, SCAN, VSRN, and UNITER). (1) Evaluating the network for retrieving any 1 of 5 descriptions to image queries; (2) evaluating the network for retrieving all 5 descriptions to image queries.
+* Evaluate VSE networks (VSE++, SCAN, VSRN, and UNITER). (1) Evaluate the network for retrieving any 1 of 5 descriptions to image queries; (2) evaluate the network for retrieving all 5 descriptions to image queries.
 * Analyse limitations of VSE networks (only for VSRN and UNITER). (1) To compute average Recall@5 and Precision@1 for each ImageNet class separately; (2) To get retrieval details for all image queries.
 
 ## Run VSE++, SCAN, and VSRN Projects
