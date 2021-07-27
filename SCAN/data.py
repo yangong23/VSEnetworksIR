@@ -1,6 +1,6 @@
 # ----------------------------------------------------------------
 # Modified by Yan Gong
-# Last revised:  July 2021
+# Last revised: July 2021
 # Reference: The orignal code is from SCAN: Stacked Cross Attention for Image-Text Matching (https://arxiv.org/abs/1803.08024).
 # The code has been modified from python2 to python3.
 # -----------------------------------------------------------------
