@@ -1,7 +1,7 @@
 # ----------------------------------------------------------------
 # Modified by Yan Gong
 # Last revised: July 2021
-# Reference: The orignal code is from VSE++: VSE++: Improving Visual-Semantic Embeddings with Hard Negatives (https://arxiv.org/abs/1707.05612).
+# Reference: The orignal code is from VSE++: Improving Visual-Semantic Embeddings with Hard Negatives (https://arxiv.org/abs/1707.05612).
 # The code has been modified from python2 to python3.
 # -----------------------------------------------------------------
 
