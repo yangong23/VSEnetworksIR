@@ -106,7 +106,7 @@ We used Python 3.8 and [PyTorch](https://pytorch.org/) 1.7.1 in the [anaconda](h
 ``` 
 bash scripts/download_itm.sh $PATH_TO_STORAGE
 ```
-Only Flirk30K is needed by this paper. The model is downloaded, we do not need to train a new model.
+Only flickr30k is needed by this paper. The model is downloaded, we do not need to train a new model.
 
 * 2 Download [the JSON file of Flickr30K](https://cs.stanford.edu/people/karpathy/deepimagesent/flickr30k.zip) produced by [Andrej Karpathy](https://cs.stanford.edu/people/karpathy/deepimagesent/). Extract "dataset.json" file from flickr30k.zip and copy "dataset.json" file into the root of UNITER project.
 
