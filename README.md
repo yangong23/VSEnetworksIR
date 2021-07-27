@@ -118,7 +118,7 @@ The requirements and installation can be found in the instructions provided by [
 
 * [Docker](https://docs.docker.com/engine/install/ubuntu/) (19.03+)
 
-* [vidia-container-toolkit](https://github.com/NVIDIA/nvidia-docker#quickstart)
+* [nvidia-container-toolkit](https://github.com/NVIDIA/nvidia-docker#quickstart)
 
 * [apex](https://github.com/NVIDIA/apex)
 
