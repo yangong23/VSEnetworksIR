@@ -240,7 +240,7 @@ def itm_eval(score_matrix, txt_ids, img_ids, txt2img, img2txts):
 
 
 @torch.no_grad()
-def evaluate_and_analyseImageNetTopics(model, eval_loader):
+def evaluate_and_analyseImageNetClass(model, eval_loader):
     st = time()
     LOGGER.info("start running Image/Text Retrieval evaluation ...")
     score_matrix = inference(model, eval_loader)
