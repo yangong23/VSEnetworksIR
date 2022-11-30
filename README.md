@@ -38,7 +38,7 @@ The precomputed image features of Flickr30K can be downloaded from [SCAN](https:
 ``` 
 wget https://iudata.blob.core.windows.net/scan/data.zip
 ``` 
-Or follow the sahring of [VSRN](https://drive.google.com/drive/u/0/folders/1os1Kr7HeTbh8FajBNegW8rjJf6GIhFqC).
+Or download from the sharing of [VSRN](https://drive.google.com/drive/u/0/folders/1os1Kr7HeTbh8FajBNegW8rjJf6GIhFqC).
 
 Extract data from data.zip, and only f30k_precomp is needed by this paper. 
 
